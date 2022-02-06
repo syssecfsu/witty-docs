@@ -1,4 +1,4 @@
-baseURL = 'https://syssecfsu.github.io/witty-docs/'
+baseURL = 'https://syssecfsu.github.io/witty/'
 canonifyurls = true
 languageCode = 'en-us'
 title = 'WiTTY: Web-based interactive TTY'
