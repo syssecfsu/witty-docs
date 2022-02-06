@@ -1,8 +1,8 @@
 baseURL = 'https://syssecfsu.github.io/witty-docs/'
+canonifyurls = true
 languageCode = 'en-us'
 title = 'WiTTY: Web-based interactive TTY'
 publishDir = "docs"
-
 
 [markup]
 [markup.goldmark.renderer]

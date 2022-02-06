@@ -19,11 +19,11 @@ tar -xzvf releasevxxx_xxx.tar.gz
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://syssecfsu.github.io/witty-docs/docs/install/"><meta property="article:section" content="docs">
 <title>Installation | WiTTY: Web-based interactive TTY</title>
-<link rel=manifest href=/witty-docs/manifest.json>
-<link rel=icon href=/witty-docs/favicon.png type=image/x-icon>
-<link rel=stylesheet href=/witty-docs/book.min.c6cfeeb36c3b51db0cb2507353c4eecf17c0fdcf2758a3802adc1474fb105e1e.css integrity="sha256-xs/us2w7UdsMslBzU8TuzxfA/c8nWKOAKtwUdPsQXh4=" crossorigin=anonymous>
-<script defer src=/witty-docs/flexsearch.min.js></script>
-<script defer src=/witty-docs/en.search.min.393ac1a205b83b951e97113d099bd2a724f559cf896b421bac9b144abe6a4542.js integrity="sha256-OTrBogW4O5UelxE9CZvSpyT1Wc+Ja0IbrJsUSr5qRUI=" crossorigin=anonymous></script>
+<link rel=manifest href=https://syssecfsu.github.io/witty-docs/manifest.json>
+<link rel=icon href=https://syssecfsu.github.io/witty-docs/favicon.png type=image/x-icon>
+<link rel=stylesheet href=https://syssecfsu.github.io/witty-docs/book.min.c6cfeeb36c3b51db0cb2507353c4eecf17c0fdcf2758a3802adc1474fb105e1e.css integrity="sha256-xs/us2w7UdsMslBzU8TuzxfA/c8nWKOAKtwUdPsQXh4=" crossorigin=anonymous>
+<script defer src=https://syssecfsu.github.io/witty-docs/flexsearch.min.js></script>
+<script defer src=https://syssecfsu.github.io/witty-docs/en.search.min.6dbfe7631619689d9b1cb375be53995a78dfe7f6d2f67f62e91feec139a6349c.js integrity="sha256-bb/nYxYZaJ2bHLN1vlOZWnjf5/bS9n9i6R/uwTmmNJw=" crossorigin=anonymous></script>
 </head>
 <body dir=ltr>
 <input type=checkbox class="hidden toggle" id=menu-control>
@@ -33,7 +33,7 @@ tar -xzvf releasevxxx_xxx.tar.gz
 <div class=book-menu-content>
 <nav>
 <h2 class=book-brand>
-<a class="flex align-center" href=/witty-docs/><span>WiTTY: Web-based interactive TTY</span>
+<a class="flex align-center" href=https://syssecfsu.github.io/witty-docs/><span>WiTTY: Web-based interactive TTY</span>
 </a>
 </h2>
 <div class=book-search>
@@ -66,11 +66,11 @@ tar -xzvf releasevxxx_xxx.tar.gz
 <header class=book-header>
 <div class="flex align-center justify-between">
 <label for=menu-control>
-<img src=/witty-docs/svg/menu.svg class=book-icon alt=Menu>
+<img src=https://syssecfsu.github.io/witty-docs/svg/menu.svg class=book-icon alt=Menu>
 </label>
 <strong>Installation</strong>
 <label for=toc-control>
-<img src=/witty-docs/svg/toc.svg class=book-icon alt="Table of Contents">
+<img src=https://syssecfsu.github.io/witty-docs/svg/toc.svg class=book-icon alt="Table of Contents">
 </label>
 </div>
 <aside class="hidden clearfix">
@@ -141,7 +141,7 @@ Post-installation Configuration
 <p>Add a user to the user accounts, follow the instructions on screen to provide the password</p>
 <p><code>./witty adduser &lt;username></code></p>
 <blockquote class="book-hint info">
-WiTTY uses sub-commands for different functions. See details <a href=/witty-docs/docs/ui/>here</a>
+WiTTY uses sub-commands for different functions. See details <a href=https://syssecfsu.github.io/witty-docs/docs/ui/>here</a>
 </blockquote>
 </li>
 <li>
@@ -168,7 +168,7 @@ Example Use Case
 <p>Here is how to do it. We can run WiTTY on a Raspberry Pi running <a href=https://www.raspberrypi.com/software/>Raspbian</a> (at address <code>192.168.1.2</code>). When a user connects via browser to <code>https://192.168.1.2:9000</code>, WiTTY will start a new <code>ssh</code> session to the Windows machine (at address <code>192.168.1.3</code>) running a SSH server. The command to run WiTTY on the RPI is as follows:</p>
 <p><code>./witty run -p 9000 ssh 192.168.1.3 -l user_name</code></p>
 <p>The user can use any compatible browsers, such as that on a phone, to connect to the Windows machine without install a SSH client.</p>
-<script src=/witty-docs/mermaid.min.js></script>
+<script src=https://syssecfsu.github.io/witty-docs/mermaid.min.js></script>
 <script>mermaid.initialize({flowchart:{useMaxWidth:!0},theme:"default"})</script>
 <p class=mermaid>
 graph LR
