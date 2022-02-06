@@ -1,6 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'WiTTY: Web-based interactive TTY'
+publishDir = "docs"
 
 
 [markup]
