@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://syssecfsu.github.io/witty-docs/'
 languageCode = 'en-us'
 title = 'WiTTY: Web-based interactive TTY'
 publishDir = "docs"
