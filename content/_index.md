@@ -5,7 +5,8 @@ type: docs
 
 # Introduction
 
-WiTTY is a cross-platform, open-source, web-based terminal emulator. It exports the terminal interface on the server (i.e., where WiTTY runs) to the browser. Simply run WiTTY on a computer and give it the command to execute when users connect via the browser. WiTTY has the following features that distinguish itself from other similar tools:
+
+[WiTTY](https://github.com/syssecfsu/witty) is a cross-platform, open-source, web-based terminal emulator. It exports the terminal interface on the server (i.e., where WiTTY runs) to the browser. Simply run WiTTY on a computer and give it the command to execute when users connect via the browser. WiTTY has the following features that distinguish itself from other similar tools:
 
 1. WiTTY allows users to **easily record, replay, and share console sessions** with just a few clicks. 
 

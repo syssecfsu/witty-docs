@@ -95,6 +95,6 @@ The user can use any compatible browsers, such as that on a phone, to connect to
 
 {{< mermaid >}}
 graph LR
-A[user on a phone] -- browser --> B[RPI: 192.168.1.1 <br /> runs WiTTY]
-B -- ssh --> C[Windows: 192.168.1.2 <br /> runs SSH server ]
+A[user on a phone] -- browser --> B[RPI: 192.168.1.2 <br /> runs WiTTY]
+B -- ssh --> C[Windows: 192.168.1.3 <br /> runs SSH server ]
 {{< /mermaid >}}

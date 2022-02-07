@@ -64,7 +64,7 @@ After a session has been recorded, the main window's `Recorded Sessions` will li
 ![img](/static/img/main3.png)
 
 
-Here is a screencast where we replay a recorded session that updates the [pi-hole](https://pi-hole.net/) system. You can fully control the playback using the progress bar. Clicking on the progress bar stops the replay and fast-forwards (or fast-backwards) the screen to that location. You can scroll the screen to view the history when replay is stopped or resume the replay.
+Here is a screencast where we replay a recorded session that updates the [pi-hole](https://pi-hole.net/) system. You can fully control the playback using the progress bar. Clicking on the progress bar stops the replay and fast-forwards (or fast-backwards) the screen to that location. You can scroll the screen to view the history when replay is stopped and resume the replay.
 
 <img src="/static/img/replay.gif" width="720px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 

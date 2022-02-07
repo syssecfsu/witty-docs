@@ -16,7 +16,7 @@ Then, open the setting for the SEED VM, go to the Network setting, and enable th
 
 ![img](/static/img/adapter2.png)
 
-After this, start the VM and list all the adaptors using the command `ifconfig` in a terminal. Look for the adaptor with an IP address starting with `192.168.`. You should be able to ssh into the guest using this IP address from the host.
+After this, start the VM and list all the adaptors using the command `ifconfig` in a terminal. Look for the adaptor with an IP address starting with `192.168.`. You should be able to ssh into the guest using this IP address from the host. Follow the instruction [here]({{< relref "/docs/install" >}}) to install and use WiTTY.
 
 {{< hint info>}}
 If the host runs Windows, make sure virtualbox host adapter is not disabled in the Windows network settings if VirtualBox cannot find the host-only Ethernet adapter.

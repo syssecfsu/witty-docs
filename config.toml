@@ -1,8 +1,11 @@
 baseURL = 'https://syssecfsu.github.io/witty/'
+
 canonifyurls = true
 languageCode = 'en-us'
 title = 'WiTTY: Web-based interactive TTY'
 publishDir = "docs"
+enableGitInfo = true
+
 
 [markup]
 [markup.goldmark.renderer]
@@ -17,3 +20,6 @@ publishDir = "docs"
   # Start and end levels can be controlled with markup.tableOfContents setting.
   # You can also specify this parameter per page in front matter.
   BookToC = true
+  BookRepo = 'https://github.com/syssecfsu/witty-docs'
+  BookMenuBundle = '/menu'
+  BookLogo = 'static/img/logo.svg'
