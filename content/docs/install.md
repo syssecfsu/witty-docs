@@ -2,9 +2,9 @@
 title: Installation
 weight: 1
 ---
-## Installation
+# Installation
 
-WiTTY runs on Linux (ARM and x86), macOS, and WSl (Windows subsystem for Linux, basically Linux). You can install from the pre-built binary or from the source code. 
+WiTTY runs on Linux (ARM and x86), macOS, and WSL2 (Windows subsystem for Linux, basically Linux). You can install from the pre-built binary or from the source code. 
 
 
 {{< tabs "install_method" >}}
@@ -13,7 +13,9 @@ WiTTY runs on Linux (ARM and x86), macOS, and WSl (Windows subsystem for Linux, 
 2. Download the release for your system
 3. Decompress the binary with the following command at selected location.
    
-   ```tar -xzvf releasevxxx_xxx.tar.gz```
+   ```tar -xzvf witty_vx.x.x_xxx.tar.gz```
+
+   >For example, use `tar -xzvf witty_v1.1.1_linux_amd64.tar.gz` to decompress release v1.1.1 for Linux on AMD64.
 
 {{< /tab >}}
 {{< tab "From Source Code" >}} 
@@ -43,7 +45,7 @@ WiTTY runs on Linux (ARM and x86), macOS, and WSl (Windows subsystem for Linux, 
 {{< /tabs >}}
 
 
-## Post-installation Configuration
+# Post-installation Configuration
 1. WiTTY uses TLS to protect its traffic. You can request a free [Let's Encrypt](https://letsencrypt.org/) cert or use a self-signed cert. Here is how to create a self-signed cert in the ```tls``` sub-directory:
    
    \# Generate a private key for a curve
@@ -81,7 +83,7 @@ WiTTY runs on Linux (ARM and x86), macOS, and WSl (Windows subsystem for Linux, 
    ```https://<witty_server_ip>:8080```
 
 
-## Example Use Case
+# Example Use Case
 
 WiTTY doesn't support Windows because Windows doesn't have [PTY](https://en.wikipedia.org/wiki/Pseudoterminal). You can still use WiTTY to access Windows terminal through a proxy. 
 

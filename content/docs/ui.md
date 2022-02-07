@@ -2,7 +2,7 @@
 title: User Interface
 weight: 2
 ---
-## Sub-commands
+# Sub-commands
 
 Similar to `git` and `apt`, WiTTY uses sub-commands for its various functions. WiTTY currently supports the following sub-commands: `adduser`, `deluser`, `listusers`, `replay`, `merge`, `run`. 
 
@@ -33,7 +33,7 @@ Usage of run:
         Max wait time between outputs (default 1000)
 ```
 
-## User Authentication
+# User Authentication
 
 WiTTY uses username/password based authentication. The user database is stored in ```user.db``` under the main directory of WiTTY. The passwords are salted with 64 bytes of random characters and then hashed using SHA256. In addition, passwords must be 12 bytes or longer. WiTTY provides three sub-commands to manage ```user.db```. 
 
@@ -43,7 +43,7 @@ WiTTY uses username/password based authentication. The user database is stored i
 
 They are pretty self-explanatory. Just follow the instructions on screen.  
 
-## Web Interface (witty run)
+# Web Interface (witty run)
 
 The web interface of WiTTY is mostly self-explanatory. After login, the user is presented with the main interface, as shown in this screenshot: 
 

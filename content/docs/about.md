@@ -3,7 +3,7 @@ title: About
 weight: 6
 ---
 
-## About WiTTY
+# About WiTTY
 
 WiTTY is written in the [go programming language](https://go.dev/), using the 
 [Gin web framework](https://github.com/gin-gonic/gin), [gorilla/websocket](https://github.com/gorilla/websocket), [pty](https://github.com/creack/pty), and the wonderful [xterm.js](https://xtermjs.org/)!
