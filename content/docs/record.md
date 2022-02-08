@@ -21,7 +21,7 @@ Recorded sessions often have long delay between outputs. You can set `wait_time`
 
 The following screenshot shows how to use ```witty merge``` to merge three recorded sessions into `alltasks.scr`.
 
-<img src="/static/img/merge.png" width="640px">
+![img](/static/img/merge.png)
 
 {{< hint info>}}
 The intended use of this is to record a separate session for each individual task, rename and merge them into a final session for submission to a project.  
